@@ -1,5 +1,6 @@
 "use client";
 
+import Header from '@/components/header';
 import Image from 'next/image';
 
 const HomePage = () => {
@@ -70,6 +71,7 @@ const Card = ({}) => {
 export default function Home() {
   return (
     <div className="">
+      <Header />
       <HomePage />
       <Card />
     </div>
